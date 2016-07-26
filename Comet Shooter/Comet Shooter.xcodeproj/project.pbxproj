@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EBABA3D1CB607FC00C51329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBABA3C1CB607FC00C51329 /* AppDelegate.swift */; };
+		9EBABA411CB607FC00C51329 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBABA401CB607FC00C51329 /* GameScene.swift */; };
+		9EBABA431CB607FC00C51329 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBABA421CB607FC00C51329 /* GameViewController.swift */; };
+		9EBABA461CB607FC00C51329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBABA441CB607FC00C51329 /* Main.storyboard */; };
+		9EBABA481CB607FC00C51329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EBABA471CB607FC00C51329 /* Assets.xcassets */; };
+		9EBABA4B1CB607FC00C51329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBABA491CB607FC00C51329 /* LaunchScreen.storyboard */; };
+		9EBABA591CB6E90F00C51329 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBABA561CB6E90F00C51329 /* bullet.png */; };
+		9EBABA5B1CB6E90F00C51329 /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBABA581CB6E90F00C51329 /* enemy.png */; };
+		9EE8472D1CBADE60001570A4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8472C1CBADE60001570A4 /* GameScene.sks */; };
+		9EE847351CBAE601001570A4 /* EarthView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EE847341CBAE601001570A4 /* EarthView.jpg */; };
+		9EE847371CBAEA2B001570A4 /* EarthFromMoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EE847361CBAEA2B001570A4 /* EarthFromMoon.jpg */; };
+		9EE8473B1CBAEAB4001570A4 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8473A1CBAEAB4001570A4 /* player.png */; };
+		9EE8473D1CBAEAC1001570A4 /* EarthSide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8473C1CBAEAC1001570A4 /* EarthSide.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EBABA391CB607FC00C51329 /* Comet Shooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comet Shooter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBABA3C1CB607FC00C51329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EBABA401CB607FC00C51329 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9EBABA421CB607FC00C51329 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9EBABA451CB607FC00C51329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EBABA471CB607FC00C51329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EBABA4A1CB607FC00C51329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EBABA4C1CB607FC00C51329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EBABA561CB6E90F00C51329 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		9EBABA581CB6E90F00C51329 /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
+		9EE8472C1CBADE60001570A4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9EE847341CBAE601001570A4 /* EarthView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EarthView.jpg; sourceTree = "<group>"; };
+		9EE847361CBAEA2B001570A4 /* EarthFromMoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EarthFromMoon.jpg; sourceTree = "<group>"; };
+		9EE8473A1CBAEAB4001570A4 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		9EE8473C1CBAEAC1001570A4 /* EarthSide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EarthSide.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EBABA361CB607FC00C51329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EBABA301CB607FC00C51329 = {
+			isa = PBXGroup;
+			children = (
+				9EBABA3B1CB607FC00C51329 /* Comet Shooter */,
+				9EBABA3A1CB607FC00C51329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EBABA3A1CB607FC00C51329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EBABA391CB607FC00C51329 /* Comet Shooter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EBABA3B1CB607FC00C51329 /* Comet Shooter */ = {
+			isa = PBXGroup;
+			children = (
+				9EE847271CBADACF001570A4 /* sprites.atlas */,
+				9EBABA3C1CB607FC00C51329 /* AppDelegate.swift */,
+				9EBABA401CB607FC00C51329 /* GameScene.swift */,
+				9EBABA421CB607FC00C51329 /* GameViewController.swift */,
+				9EE8472C1CBADE60001570A4 /* GameScene.sks */,
+				9EBABA441CB607FC00C51329 /* Main.storyboard */,
+				9EBABA471CB607FC00C51329 /* Assets.xcassets */,
+				9EBABA491CB607FC00C51329 /* LaunchScreen.storyboard */,
+				9EBABA4C1CB607FC00C51329 /* Info.plist */,
+				9EBABA531CB6E67E00C51329 /* GameObject Images */,
+			);
+			path = "Comet Shooter";
+			sourceTree = "<group>";
+		};
+		9EBABA531CB6E67E00C51329 /* GameObject Images */ = {
+			isa = PBXGroup;
+			children = (
+				9EBABA561CB6E90F00C51329 /* bullet.png */,
+				9EE8473A1CBAEAB4001570A4 /* player.png */,
+				9EBABA581CB6E90F00C51329 /* enemy.png */,
+			);
+			name = "GameObject Images";
+			sourceTree = "<group>";
+		};
+		9EE847271CBADACF001570A4 /* sprites.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				9EE847361CBAEA2B001570A4 /* EarthFromMoon.jpg */,
+				9EE847341CBAE601001570A4 /* EarthView.jpg */,
+				9EE8473C1CBAEAC1001570A4 /* EarthSide.jpg */,
+			);
+			name = sprites.atlas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EBABA381CB607FC00C51329 /* Comet Shooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EBABA4F1CB607FC00C51329 /* Build configuration list for PBXNativeTarget "Comet Shooter" */;
+			buildPhases = (
+				9EBABA351CB607FC00C51329 /* Sources */,
+				9EBABA361CB607FC00C51329 /* Frameworks */,
+				9EBABA371CB607FC00C51329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comet Shooter";
+			productName = "Comet Shooter";
+			productReference = 9EBABA391CB607FC00C51329 /* Comet Shooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EBABA311CB607FC00C51329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Akash Bhandari";
+				TargetAttributes = {
+					9EBABA381CB607FC00C51329 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9EBABA341CB607FC00C51329 /* Build configuration list for PBXProject "Comet Shooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EBABA301CB607FC00C51329;
+			productRefGroup = 9EBABA3A1CB607FC00C51329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EBABA381CB607FC00C51329 /* Comet Shooter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EBABA371CB607FC00C51329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBABA4B1CB607FC00C51329 /* LaunchScreen.storyboard in Resources */,
+				9EE847351CBAE601001570A4 /* EarthView.jpg in Resources */,
+				9EBABA5B1CB6E90F00C51329 /* enemy.png in Resources */,
+				9EBABA591CB6E90F00C51329 /* bullet.png in Resources */,
+				9EBABA481CB607FC00C51329 /* Assets.xcassets in Resources */,
+				9EE8473B1CBAEAB4001570A4 /* player.png in Resources */,
+				9EE8472D1CBADE60001570A4 /* GameScene.sks in Resources */,
+				9EBABA461CB607FC00C51329 /* Main.storyboard in Resources */,
+				9EE8473D1CBAEAC1001570A4 /* EarthSide.jpg in Resources */,
+				9EE847371CBAEA2B001570A4 /* EarthFromMoon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EBABA351CB607FC00C51329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EBABA411CB607FC00C51329 /* GameScene.swift in Sources */,
+				9EBABA431CB607FC00C51329 /* GameViewController.swift in Sources */,
+				9EBABA3D1CB607FC00C51329 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EBABA441CB607FC00C51329 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EBABA451CB607FC00C51329 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EBABA491CB607FC00C51329 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EBABA4A1CB607FC00C51329 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EBABA4D1CB607FC00C51329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EBABA4E1CB607FC00C51329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EBABA501CB607FC00C51329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Comet Shooter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bennington.edu.akashbhandari.Comet-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EBABA511CB607FC00C51329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Comet Shooter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bennington.edu.akashbhandari.Comet-Shooter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EBABA341CB607FC00C51329 /* Build configuration list for PBXProject "Comet Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBABA4D1CB607FC00C51329 /* Debug */,
+				9EBABA4E1CB607FC00C51329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EBABA4F1CB607FC00C51329 /* Build configuration list for PBXNativeTarget "Comet Shooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBABA501CB607FC00C51329 /* Debug */,
+				9EBABA511CB607FC00C51329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EBABA311CB607FC00C51329 /* Project object */;
+}

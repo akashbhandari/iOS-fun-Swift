@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pS8-Bw-Los">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Type here:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3vP-hE-J1z">
+                                <rect key="frame" x="20" y="597" width="90" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0i-uS-aef">
+                                <rect key="frame" x="153" y="298" width="68" height="30"/>
+                                <state key="normal" title="Press Me!">
+                                    <color key="titleColor" red="0.923719598696782" green="0.24276507394264724" blue="0.16797545552866544" alpha="0.83257004310000005" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="myButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rJf-1P-ftv"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tq5-N7-pux">
+                                <rect key="frame" x="187" y="346" width="0.0" height="0.0"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Ldf-dz-FSs">
+                                <rect key="frame" x="-98" y="62" width="570" height="234"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="570" id="Hmx-fX-RzT"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Akash Bhandari" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPe-lN-OgB">
+                                <rect key="frame" x="102" y="33" width="161" height="21"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
+                                <color key="textColor" red="0.98762019230769227" green="0.010381271988819104" blue="0.3843019732307848" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pg4-HI-d03">
+                                <rect key="frame" x="26" y="323" width="322" height="287"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="269" id="OfX-lr-Xty"/>
+                                </constraints>
+                                <string key="text">I am Akash, a second term freshman at Bennington College. I always loved the smoothness and the easy user interface of iOS. By taking this class, I intend to make an app that would be sleek as well as user friendly. I started progamming about a year ago. At first, I was into making websites using HTML and CSS. Now, I want to broaden my knowledge in computer science. I am really excited for this class as I want to challenge myself to greater extent and learn new things.</string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uav-yB-0se">
+                                <rect key="frame" x="126" y="565" width="122" height="30"/>
+                                <state key="normal" title="Press Me Instead!">
+                                    <color key="titleColor" red="0.33714833859999999" green="0.47448813919999999" blue="0.91058033699999996" alpha="0.88825431030000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="myBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s2P-Qa-AKl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="tintColor" red="0.94820922613143921" green="0.98142331838607788" blue="0.93160349130630493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pg4-HI-d03" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-3" id="JaU-M5-haq"/>
+                            <constraint firstItem="Y0i-uS-aef" firstAttribute="top" secondItem="Ldf-dz-FSs" secondAttribute="bottom" constant="2" id="LkO-gh-Ij5"/>
+                            <constraint firstItem="3vP-hE-J1z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="MAS-T1-9lI"/>
+                            <constraint firstItem="nPe-lN-OgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RN1-oy-SUh"/>
+                            <constraint firstItem="Ldf-dz-FSs" firstAttribute="centerX" secondItem="Tq5-N7-pux" secondAttribute="centerX" id="SK4-tK-8sj"/>
+                            <constraint firstItem="pS8-Bw-Los" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="URG-Gp-9fd"/>
+                            <constraint firstItem="Ldf-dz-FSs" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.35" id="Wlx-uI-dpg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pg4-HI-d03" secondAttribute="trailing" constant="-6" id="ZNc-jD-3zn"/>
+                            <constraint firstItem="pS8-Bw-Los" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="c9M-Lr-Qlz"/>
+                            <constraint firstItem="pS8-Bw-Los" firstAttribute="centerX" secondItem="Tq5-N7-pux" secondAttribute="centerX" id="dw6-DY-AuZ"/>
+                            <constraint firstItem="nPe-lN-OgB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="eHt-2H-NYO"/>
+                            <constraint firstItem="Ldf-dz-FSs" firstAttribute="centerX" secondItem="Y0i-uS-aef" secondAttribute="centerX" id="frf-84-Fhw"/>
+                            <constraint firstItem="Ldf-dz-FSs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="42" id="hPb-9L-Etf"/>
+                            <constraint firstItem="uav-yB-0se" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m3Y-Tt-15t"/>
+                            <constraint firstItem="Ldf-dz-FSs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oYj-m6-5B1"/>
+                            <constraint firstItem="pS8-Bw-Los" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ow5-x6-Pzr"/>
+                            <constraint firstItem="pg4-HI-d03" firstAttribute="top" secondItem="Y0i-uS-aef" secondAttribute="bottom" constant="2" id="pOm-rp-s7b"/>
+                            <constraint firstItem="3vP-hE-J1z" firstAttribute="top" secondItem="pg4-HI-d03" secondAttribute="bottom" constant="3" id="rCY-KH-JUs"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="image" destination="Ldf-dz-FSs" id="hac-sJ-GQE"/>
+                        <outlet property="myLabel" destination="pg4-HI-d03" id="tyY-hu-qFS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268.5" y="295.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="960" height="720"/>
+        <image name="background" width="1920" height="1200"/>
+    </resources>
+</document>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E9218ED56CF817EC163DC7119C751ACFC31C2848",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E9218ED56CF817EC163DC7119C751ACFC31C2848" : 0,
+    "53D20DD6DBD9C80BBD80E9E662655999A6EE42AF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8D4970FB-EB55-45B2-A62E-E9A5AE848944",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E9218ED56CF817EC163DC7119C751ACFC31C2848" : "",
+    "53D20DD6DBD9C80BBD80E9E662655999A6EE42AF" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "test 2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Final Profile\/test 2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BenningtonCS\/iOS-Programming-Akash.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53D20DD6DBD9C80BBD80E9E662655999A6EE42AF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/aksbhandari1\/Profile-App-test2-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E9218ED56CF817EC163DC7119C751ACFC31C2848"
+    }
+  ]
+}
